@@ -1,0 +1,151 @@
+/*-------NAV*/
+
+@media  only screen and (max-width:947px) {
+    .nav{
+        height: 90px;
+        padding-top: 5px;
+        align-items: flex-start;
+        background-color: var(--black);
+        position: relative;
+    }
+
+    .nav .center{
+        position: absolute;
+        left: 15px;
+        bottom: 0;
+        width:95% !important;
+        align-self: flex-end;
+    }
+  
+    
+    .optionsBox{
+        top: 85px !important;
+    }
+    .channelLinks #aboutChannel{
+        display: none;
+    }
+   
+}
+
+
+/* NAV SMALL Screens*/
+@media  only screen and (max-width:645px) {
+    .center,
+    .upload,
+    #bell,
+    .liveLinkLarge
+    {
+        display: none !important;
+    }
+    .nav .left{
+        flex-direction: row-reverse;
+    }
+
+    .nav .left .searchSmallScreens,
+    .liveLinkSmall,.BTNShowSearchBox
+    {
+        display: block !important;
+    }
+
+    .nav{
+        height: 100% !important;
+        align-items: center;
+    }
+    
+    .optionsBox{
+        top: 44px !important;
+    }
+
+  
+
+}
+
+
+
+
+/* Main */
+@media  only screen and (max-width:947px) {
+
+    .main .channelDetails .container{
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .channelDetails .container .right .settings{
+        padding: 8px 6px !important;
+    }
+
+    .detailsTexts{
+        font-size: 1rem ;
+    }
+
+    .channelName{
+        margin-right: 10px;
+    }
+}
+
+@media  only screen and (max-width:645px) {
+    .channelNameAndFolloers .FDsmallScreen{
+        display: flex;
+        align-items: center;     
+        margin-top: 10px;   
+     
+    }
+    .channelNameAndFolloers{
+        margin-right: 5px;
+    }
+    .channelNameAndFolloers .FDsmallScreen .detailsTexts{
+        color: var(--gray);
+        font-size: 0.8rem;
+    } 
+    .container .right .settings{
+        display: none !important;
+    }
+    .container .left .settings{
+        display: block !important;
+        padding: 7px;
+    }
+    .container .left .followers,.views{
+        display: none !important;
+    }
+
+
+    .container .right:after{
+        width:60px;
+        height: 60px;
+        top: -20%;
+        right: -70%;
+      
+    }
+
+    .main .channelCover{
+        height: 90px !important;
+    }
+
+
+    /*videos */
+    .channelVideos .container{
+        justify-content: center;
+    }
+   
+}
+
+/* ASIDE */
+
+@media  only screen and (max-width:947px) {
+    aside.aside{
+        top:90px ;
+    }
+   
+}
+@media  only screen and (max-width:1115px) {
+    .aside {
+        z-index: 100 !important;
+        top: 0 !important;
+    }
+    .aside .top .closeAside{
+        display: flex !important;
+      
+    }    
+}
+

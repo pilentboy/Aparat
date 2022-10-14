@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/icon.png" >
+    <title>Aparat</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body id="body" >
+
+    <!---------------- HEADER NAV -->
+    <header class="header"> 
+        <nav class="nav">
+            
+        <div class="left">
+
+            <div class="item upload transition3s">
+                <a href="#">
+                    +بارگذاری ویدیو 
+                </a>
+            </div>
+
+            <div class="item" id="bell" >
+
+                <button class="bell x transition3s" title="اعلانات">
+                    <i class="fa fa-bell-o"></i>
+    
+
+                </button>
+
+                <div class="optionsBox drop-down-bell">
+                    <div class="header">
+                        <span>اعلان ها</span>
+                        <a href="#" class="gotToNotfs">
+                            نمایش همه
+                            <i class="fa fa-gear"></i>
+                        </a>
+                        
+                    </div>
+                  
+ 
+                    <div class="infos">
+
+                        <div class="notfs">
+                            <div class="userProfNotf">
+                                <img src="./images/profilePhoto.png" alt="">
+                                <span>مهدی</span>
+                            </div>
+                            <p>
+                                این کاربر شما را دنبال می کند
+                            </p>
+                        </div>
+
+                        <div class="notfs">
+                            <div class="userProfNotf">
+                                <img src="./images/profilePhoto.png" alt="">
+                                <span>مهدی</span>
+                            </div>
+                            <p>
+                                این کاربر شما را دنبال می کند
+                            </p>
+                        </div>
+
+                        <div class="notfs">
+                            <div class="userProfNotf">
+                                <img src="./images/profilePhoto.png" alt="">
+                                <span>مهدی</span>
+                            </div>
+                            <p>
+                                این کاربر شما را دنبال می کند
+                            </p>
+                        </div>
+                        <div class="notfs">
+                            <div class="userProfNotf">
+                                <img src="./images/profilePhoto.png" alt="">
+                                <span>مهدی</span>
+                            </div>
+                            <p>
+                                این کاربر شما را دنبال می کند
+                            </p>
+                        </div>
+                        <div class="notfs">
+                            <div class="userProfNotf">
+                                <img src="./images/profilePhoto.png" alt="">
+                                <span>مهدی</span>
+                            </div>
+                            <p>
+                                این کاربر شما را دنبال می کند
+                            </p>
+                        </div>
+                      
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="item userProfileBtnHeader">
+                <button class="btn headerUserBTN x">
+                    <img src="./images/profilePhoto.png" alt="img" class="userProfBTNImg">
+                </button>
+
+                <div class="optionsBox drop-down-content-prof">
+
+                    <div class="settings">
+                        <img src="./images/profilePhoto.png" class="settingsImage" alt="image">
+                        <a href="#" class="linkToSettings ">
+                         <span class="">Mark</span>
+                           <div class="text item">
+                            <i class="fa fa-gear"></i>
+                            <span>تنظیمات</span>
+                           </div> 
+                        </a>
+                    </div>
+
+                    <div class="items">
+                        <a href="#" class="dashboard">
+                            <i class="fa fa-bars"></i>
+                            داشبورد آپارات
+                        </a>
+
+                        <a href="#" class="startLive">
+                            <i class="fa fa-camera"></i>
+                           شروع پخش زنده
+                        </a>
+
+                        <a href="#" class="ADS-dashboard">
+                            <i class="fa fa-rss" ></i>
+                           داشبورد تبلیغات
+                        </a>
+
+                    </div>
+
+                    <div class="night-dayOption">
+
+                        <div class="right">
+                            <i class="fa fa-moon-o moon"></i>
+                            <span class="item">حالت شب</span>
+                        </div>
+
+                        <div class="left-toggle">
+                            <i class="fa  fa-toggle-on toggle "></i>
+                        </div>
+                    </div>
+
+                    <a href="#" class="exit-account">
+                        <i class="fa fa-close item"></i>
+                        <span>خروج از حساب کاربری</span>
+                    </a>
+
+
+                </div>
+            </div>
+            
+            <!-- THESE ELEMTS DISPLAY ON SMALL SCREENS-->
+            <button class="BTNShowSearchBox transition3s">
+                <i class="fa fa-search"></i>
+            </button>
+            
+            <a href="" class="liveLinkSmall item liveLink transition3s" title="پخش زنده">
+                <i class="fa fa-video-camera item"></i>
+                <span class="item livesCounter"> 12</span>
+            </a>
+
+            <div class="searchBoxSmallScreen">
+        
+               <button class="searchBTNSmallScreen transition3s">
+                <i class="fa fa-search"></i>
+                </button> 
+                
+                <input type="text"  class="searchInput search" placeholder="جستوجوی ویدیوهای رویداد ها و...">
+
+                <button class="closeSearchInput transition3s">
+                    <i class="fa fa-close"></i>
+                </button>
+
+                </div>
+        </div>
+
+        <div class="center">
+            <input type="text"  class="searchInput search" placeholder="جستوجوی ویدیوهای رویداد ها و...">
+            <i class="fa fa-search"></i>
+        </div>
+
+        <div class="right">
+
+            <button class="hamburgerBTN item transition3s">
+                <i class="hamberguer-icon fa fa-bars"></i>
+            </button>
+
+            <a href="#" class="NavLogo item">
+                <img src="./images/navLogo.png"  alt="site logo">
+            </a>
+
+            <a href="" class="liveLinkLarge item liveLink transition3s" title="پخش زنده">
+                <i class="fa fa-video-camera item"></i>
+                <span class="item livesCounter"> 12</span>
+            </a>
+        </div>
+
+
+    </nav>
+    </header>
+
+    <!---------------- MAIN  -->
+    <main class="main">
+
+            <section class="channelCover">
+            </section>  
+
+            <section class="channelDetails">
+              <div class="container">
+
+              
+                <div class="right">
+                    <div class="channelNameAndFolloers">
+                        <span id="channelName" class="detailsTexts">MyVideos</span>
+                        <div class="FDsmallScreen">
+                            <span id="followersCounter" class="detailsTexts">123</span>
+                            <span class="detailsTexts">دنبال کننده</span>
+                        </div>
+                    </div>
+
+                    <a href="#" class="settings">
+                        <i class="fa fa-gear"></i>
+                        تنظیمات
+                    </a>
+                    
+                </div>
+
+                <div class="left">
+
+                    <div class="followers">
+                        <span id="followersCounter" class="detailsTexts">123</span>
+                        <span class="text">دنبال کننده</span>
+                    </div>
+                    <div class="views">
+                        <span id="viewsCounter" class="detailsTexts">12 هزار</span>
+                        <span class="text">بازدید ویدیو</span>
+                    </div>
+
+                    <!--this element display on small screens only-->
+                    <a href="#" class="settings">
+                        <i class="fa fa-gear"></i>
+                        تنظیمات
+                    </a>
+
+                </div>
+                
+
+                </div>
+            </section>
+
+            <div class="channelLinks">
+                <a href="#" id="home">خانه</a>
+                <a href="#" id="allVideos">همه ویدیوها</a>
+                <a href="#" id="playList">لیست پخش</a>
+                <a href="#" id="aboutChannel">درباره کانال</a>
+
+            </div>
+            
+
+           <section class="channelVideos">
+                <div class="container">
+                    <h2>ویدیو ها</h2>
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <video src="./videos/video.mp4" class="video"></video>
+                        <span class="videoName">قسمت 1</span>
+                        <div class="videoDetails">
+                            <span class="videoViews">12 هزار بازدید</span>
+                            <span class="dateUploaded">3 سال پیش</span>
+                        </div>
+
+                        <button class="videoOptionsBTN transition3s">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="videoOptions">
+                            <a href="#">
+                                <i class="fa fa-image"></i>
+                                ویترین کانال
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-pencil"></i>
+                                ویرایش ویدیو
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+           </section>
+         
+
+    </main>
+
+    <aside class="aside">
+
+        <div class="container">
+            <section class="top">
+                <div class="closeAside">
+                    <button class="hamburgerBTN item transition3s">
+                        <i class="hamberguer-icon fa fa-bars"></i>
+                    </button>
+        
+                    <a href="#" class="NavLogo item">
+                        <img src="./images/navLogo.png"  alt="site logo">
+                    </a>
+                </div>
+               
+                <div class="webLinks asideLinks">
+                    <a href="#">
+                        <i class="fa fa-home"></i>
+                        صفحه نخست
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-film"></i>
+                       ویدیوهای دنبال شدگان
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-thumbs-up"></i>
+                        ویدیو های پست شده
+                    </a>
+                </div>
+            </section>
+
+            <section class="categories asideLinks">
+                    <h3>دسته بندی ها</h3>
+                    <a href="#">
+                        <i class="fa fa-play"></i>
+                        بازی
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-home"></i>
+                        فیلم
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-film"></i>
+                        کارتون
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-film"></i>
+                        ورزشی
+                    </a>
+            </section>
+
+            <section class="followings asideLinks">
+                <h3> دنبال شدگان</h3>
+
+                <a href="#" class="channel">
+                    <img src="./images/profilePhoto.png" alt="">
+                    کانال
+                </a>
+                <a href="#" class="channel">
+                    <img src="./images/profilePhoto.png" alt="">
+                    کانال
+                </a>
+                <a href="#" class="channel">
+                    <img src="./images/profilePhoto.png" alt="">
+                    کانال
+                </a>
+                <a href="#" class="channel">
+                    <img src="./images/profilePhoto.png" alt="">
+                    کانال
+                </a>
+            
+          
+
+             
+          
+            </section>
+          
+            <section class="categories asideLinks">
+                <h3> دیگر سرویس ها</h3>
+                <a href="#">
+                    <i class="fa fa-film"></i>
+                   پخش زنده
+                </a>
+                <a href="#">
+                    <i class="fa fa-film"></i>
+                   پخش زنده
+                </a>
+                <a href="#">
+                    <i class="fa fa-film"></i>
+                   پخش زنده
+                </a>
+                <a href="#">
+                    <i class="fa fa-film"></i>
+                   پخش زنده
+                </a>
+             
+       
+       
+       
+            </section>
+        
+            <section class="asideLinks">
+                <div class="night-dayOption">
+
+                    <div class="right">
+                        <i class="fa fa-moon-o moon"></i>
+                        <span class="item">حالت شب</span>
+                    </div>
+
+                    <div class="left-toggle">
+                        <i class="fa  fa-toggle-on toggle"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="morePages asideLinks">
+                <h3>دیگر صفحات</h3>
+
+                <div class="pages">
+                    <a href="#">
+                        قوانین
+                     </a>
+ 
+                     <a href="#">
+                         قوانین
+                      </a>
+                      <a href="#">
+                        قوانین
+                     </a>
+                     <a href="#">
+                        قوانین
+                     </a>
+                     <a href="#">
+                        قوانین
+                     </a>
+                     <a href="#">
+                        قوانین
+                     </a>
+                     <a href="#">
+                        قوانین
+                     </a>
+                     <a href="#">
+                        قوانین
+                     </a>
+                </div>
+                 
+                
+              
+            </section>
+
+            <section class="asideLinks socialMedias">
+                <a href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </section>
+        </div>
+
+    </aside>
+
+   
+<script src="app.js"></script>
+</body>
+
+</html>
